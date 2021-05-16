@@ -11,7 +11,7 @@ Ce tableau comprend une liste d'expressions régulières que vous pouvez récup�
 | Identifiant de lieu de covoiturage (issu du PAN) | `35238-C-001` | `^([013-9]\\d\|2[AB1-9])\\d{3}-C-\\d{3}$` |
 | Nom de commune | `Le Plessis-Trévise` | `^[A-Za-z\\s\\-\\u00C0-\\u00FF]+$` |
 | Nom de personne | |`[A-Za-zÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŸàâäçéèêëîïôöùûüÿÆŒæœ \\-']*` |
-| Nom de voie pour une adresse | `Avenue Ardouin` | `^[a-zA-Z0-9\\-\\'\\s\\d\\u00C0-\\u00FF]+$` |
+| Nom de rue pour une adresse | `Avenue Ardouin` | `^[a-zA-Z0-9\\-\\'\\s\\d\\u00C0-\\u00FF]+$` |
 | N° de téléphone |  | `^(\\+33\|0\|\\+262\|\\+269\|\\+508\|\\+590\|\\+594\|\\+596\|\\+681\|\\+687\|\\+689)\[1-9\](\\d\\d){4}$`|
 | Opening Hours (format OSM) | `Mo-Fr 08:00-12:00,Mo-Fr 14:00-18:00,Th 08:00-18:00` | `(.*?)((\\d{1,2}:\\d{2})-(\\d{1,2}:\\d{2})\|24/7)` |
 | SIRET | `22940028800010` |`^\\d{14}$` | 
