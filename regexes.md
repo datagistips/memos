@@ -1,6 +1,6 @@
 Ce tableau comprend une liste d'expressions régulières que vous pouvez récupérer pour vérifier la conformité de certains champs, par exemple si vous créez un schéma pour [schema.data.gouv.fr](schema.data.gouv.fr)
 
-| Champ | Regex | Exemple |
+| Champ | Exemple | Regex |
 | -- | -- | -- |
 | Code INSEE | `75114` | `^([013-9]\\d\|2[AB1-9])\\d{3}$` | 
 | Chiffres ou valeur `N/A` | `35238-C-001` | `^(\\d+\|N\/A)$` |
