@@ -1,3 +1,5 @@
+Ce tableau comprend une liste d'expressions régulières que vous pouvez utiliser pour vérifier la conformité de certains champs, par exemple si vous créez un schéma pour [schema.data.gouv.fr](schema.data.gouv.fr)
+
 | Champ | Regex | Exemple |
 | -- | -- | -- |
 | Code INSEE | `75114` | `^([013-9]\\d\|2[AB1-9])\\d{3}$` | 
