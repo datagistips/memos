@@ -1,4 +1,4 @@
-Ce tableau comprend une liste d'expressions régulières que vous pouvez utiliser pour vérifier la conformité de certains champs, par exemple si vous créez un schéma pour [schema.data.gouv.fr](schema.data.gouv.fr)
+Ce tableau comprend une liste d'expressions régulières que vous pouvez récupérer pour vérifier la conformité de certains champs, par exemple si vous créez un schéma pour [schema.data.gouv.fr](schema.data.gouv.fr)
 
 | Champ | Regex | Exemple |
 | -- | -- | -- |
