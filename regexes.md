@@ -3,7 +3,7 @@ Ce tableau comprend une liste d'expressions régulières que vous pouvez récup�
 | Champ | Exemple | Regex |
 | -- | -- | -- |
 | Code INSEE | `75114` | `^([013-9]\\d\|2[AB1-9])\\d{3}$` | 
-| Chiffres ou valeur `N/A` | `35238-C-001` | `^(\\d+\|N\/A)$` |
+| Chiffres ou valeur `N/A` | 3 ou `N/A` | `^(\\d+\|N\/A)$` |
 | Clé FANTOIR | `94059_0040_00036` | `^[A-Za-z0-9_]+$` |
 | Heure et date | `2020-05-11T14:08:32Z` | `\\d{4}-[01]\\d-[0-3]\\d([+-][0-2]\\d:[0-5]\\dZ?)?$` |
 | Identifiant de marché public | `2014NNNNNNNNNN00` | `^\\d{4}.{1,10}\\d{2}$`|
