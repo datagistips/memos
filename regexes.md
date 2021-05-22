@@ -20,7 +20,7 @@ Ce tableau comprend une liste d'expressions régulières que vous pouvez récup�
 | Valeurs séparées par une `,` (Public cible) | `Tout public,Allocataires,Demandeurs d'emploi` ou `Tout public` | `(?:(?:^\|,)(Tout public\|Allocataires\|Demandeurs d'emploi\|Étrangers\|Familles\|Jeunes\|Personnes en situation de handicap\|Séniors))+$`| https://schema.data.gouv.fr/etalab/schema-inclusion-numerique/latest/documentation.html#propri%C3%A9t%C3%A9-public_cible |
 | Valeurs séparées par un `\|` (Jours de disponibilité) _Formulation alternative_ | `lundi\|mercredi\|vendredi` | `^(7j/7\|lundi\|mardi\|mercredi\|jeudi\|vendredi\|samedi\|dimanche\|jours fériés\|événements){1}(\\|(7j/7\|lundi\|mardi\|mercredi\|jeudi\|vendredi\|samedi\|dimanche\|jours fériés\|événements))*$`|
 | Valeurs séparées par un `\|` (Heures de disponibilité) _Formulation alternative_ | `heures ouvrables\|heures de nuit` | `(heures ouvrables\|heures de nuit\|24h/24){1}(\\|(heures ouvrables\|heures de nuit\|24h/24))*$`|
-| Well Known Text d'une ligne | | `(MULTI\|multi)?(LINESTRING\|linestring)\(((\|,\s?)\(((\|,\s?)(-?[0-9](\.[0-9]+)?\s-?[0-9](\.[0-9]+)?))+\))+\)`
+| Well Known Text d'une ligne _Proposition personnelle_ | | `(MULTI\|multi)?(LINESTRING\|linestring)\(((\|,\s?)\(((\|,\s?)(-?[0-9](\.[0-9]+)?\s-?[0-9](\.[0-9]+)?))+\))+\)` | https://regexr.com/5tfj7
 
 <!--
 | UUID | | `"^\\d{14}\\d{4}.{1,10}\\d{2}$"`|
